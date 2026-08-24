@@ -8,48 +8,31 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
-import sjnenterprises.household.sjnhomego.R
+import sjnenterprises.household.sjnhomego.data.entity.OrderEntity
 
 @Composable
 fun CheckoutDialog(
+    order: OrderEntity,
     onConfirm: () -> Unit,
 ) {
     AlertDialog(
         onDismissRequest = onConfirm,
         confirmButton = {
             TextButton(onClick = onConfirm) {
-                Text(text = stringResource(id = R.string.mbwrk_checkout_dialog_confirm))
+                Text("View Orders")
             }
         },
         title = {
-            Text(
-                text = stringResource(id = R.string.mbwrk_checkout_dialog_title),
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold
-            )
+            Text("Reservation #${order.orderNumber}", style = MaterialTheme.typography.titleLarge)
         },
         text = {
             Column(modifier = Modifier.fillMaxWidth()) {
-                Text(
-                    text = stringResource(id = R.string.mbwrk_checkout_success_message),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
+                Text("Your reservation is confirmed.")
+                Text("We will hold these items for you in store for 24 hours.")
+                Text(order.description, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("Total: £%.2f".format(order.price), color = MaterialTheme.colorScheme.primary)
             }
         },
-        containerColor = MaterialTheme.colorScheme.surface
     )
 }
 
-@Preview(showBackground = true)
-@Composable
-fun CheckoutDialogPreview() {
-    MaterialTheme {
-        CheckoutDialog(
-            onConfirm = {}
-        )
-    }
-}

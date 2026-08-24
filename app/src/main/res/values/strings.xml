@@ -1,78 +1,57 @@
 <resources>
     <string name="mbwrk_app_name">SJNHome Go</string>
-
-    <!-- shared -->
     <string name="mbwrk_price">£%1$.2f</string>
-
-    <!-- top bar titles -->
-    <string name="mbwrk_top_bar_home_title">Home/App Title</string>
+    <string name="mbwrk_top_bar_home_title">SJNHome Go</string>
     <string name="mbwrk_top_bar_cart_title">Cart</string>
-    <string name="mbwrk_top_bar_checkout_title">Checkout</string>
+    <string name="mbwrk_top_bar_checkout_title">Reserve Order</string>
     <string name="mbwrk_top_bar_orders_title">Orders</string>
     <string name="mbwrk_top_bar_settings_title">Settings</string>
-    <string name="mbwrk_top_bar_product_details_title">Details</string>
-
-    <!-- bottom bar navigation item titles -->
+    <string name="mbwrk_top_bar_product_details_title">Product Details</string>
     <string name="mbwrk_bottom_bar_nav_item_home_title">Home</string>
     <string name="mbwrk_bottom_bar_nav_item_cart_title">Cart</string>
     <string name="mbwrk_bottom_bar_nav_item_orders_title">Orders</string>
     <string name="mbwrk_bottom_bar_nav_item_settings_title">Settings</string>
-
-    <!-- onboarding screen -->
-    <string name="mbwrk_page_1_title">Strategic Planning</string>
-    <string name="mbwrk_page_2_title">Operational Excellence</string>
-    <string name="mbwrk_page_3_title">Change Management</string>
-    <string name="mbwrk_page_1_description">Comprehensive strategic analysis and planning that aligns your business objectives with market opportunities and organizational capabilities.</string>
-    <string name="mbwrk_page_2_description">Process optimization and operational improvement strategies that enhance efficiency, reduce costs, and drive sustainable performance.</string>
-    <string name="mbwrk_page_3_description">Expert guidance through organizational transformation</string>
+    <string name="mbwrk_page_1_title">Useful finds for every room</string>
+    <string name="mbwrk_page_2_title">Everything for work and life</string>
+    <string name="mbwrk_page_3_title">Reserve now, collect with ease</string>
+    <string name="mbwrk_page_1_description">Practical homeware for comfortable everyday living.</string>
+    <string name="mbwrk_page_2_description">Stationery and accessories for busy days.</string>
+    <string name="mbwrk_page_3_description">Reserve your basket and collect it within 24 hours.</string>
     <string name="mbwrk_next_button_title">Next</string>
-    <string name="mbwrk_start_button_title">Start</string>
+    <string name="mbwrk_start_button_title">Get Started</string>
     <string name="mbwrk_skip_button_title">Skip</string>
-
-    <!-- home/products screen   -->
     <string name="mbwrk_products_state_empty_primary_text">No products available</string>
-
-    <!-- product details screen   -->
-    <string name="mbwrk_product_details_state_empty_primary_text">No information available for this product</string>
+    <string name="mbwrk_product_details_state_empty_primary_text">No information is available for this product</string>
     <string name="mbwrk_product_image_description">Product image</string>
     <string name="mbwrk_button_add_to_cart_label">Add to Cart</string>
-
-    <!-- cart screen -->
     <string name="mbwrk_cart_state_empty_primary_text">Nothing in your cart yet</string>
     <string name="mbwrk_button_place_order_label">Place Order • £%1$.2f</string>
     <string name="mbwrk_increase_quantity_icon_description">Increase quantity</string>
     <string name="mbwrk_decrease_quantity_icon_description">Decrease quantity</string>
     <string name="mbwrk_delete_item_icon_description">Delete item</string>
-
-    <!-- orders screen -->
-    <string name="mbwrk_orders_state_empty_primary_text">You have no orders yet</string>
+    <string name="mbwrk_orders_state_empty_primary_text">No orders yet</string>
     <string name="mbwrk_order_number">Order #%1$s</string>
     <string name="mbwrk_order_customer">Customer: %1$s %2$s</string>
-
-    <!-- checkout screen -->
     <string name="mbwrk_checkout_text_field_first_name">First Name</string>
-    <string name="mbwrk_checkout_text_field_last_name">Last Name</string>
+    <string name="mbwrk_checkout_text_field_last_name">Address</string>
     <string name="mbwrk_checkout_text_field_email">Email</string>
-    <string name="mbwrk_button_confirm_order_label">Confirm Order</string>
-
-    <!-- checkout dialog -->
-    <string name="mbwrk_checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="mbwrk_checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="mbwrk_checkout_dialog_confirm">Done</string>
-
-    <!-- settings screen -->
+    <string name="mbwrk_button_confirm_order_label">Place Reservation</string>
+    <string name="mbwrk_checkout_dialog_title">Reservation Confirmed</string>
+    <string name="mbwrk_checkout_success_message">Your order is ready to be collected in store within 24 hours.</string>
+    <string name="mbwrk_checkout_dialog_confirm">View Orders</string>
     <string name="mbwrk_settings_screen_company_label">Company</string>
     <string name="mbwrk_settings_screen_version_label">Version</string>
     <string name="mbwrk_settings_screen_customer_support_label">Customer Support</string>
-    <string name="mbwrk_company_name">Company Name</string>
-    <string name="mbwrk_app_version">1.0.0</string>
-    <string name="mbwrk_customer_support_link">https://website.org/</string>
-
-    <!-- clear cart dialog -->
+    <string name="mbwrk_company_name">SJN ENTERPRISES LTD</string>
+    <string name="mbwrk_app_version">1.0</string>
+    <string name="mbwrk_customer_support_link">http://sjn-enterprises.surf/</string>
+    <string name="mbwrk_category_home">Home</string>
+    <string name="mbwrk_category_stationery">Stationery</string>
+    <string name="mbwrk_category_accessories">Accessories</string>
+    <string name="mbwrk_category_seasonal">Seasonal</string>
     <string name="mbwrk_clear_cart_dialog_title">Clear cart?</string>
-    <string name="mbwrk_clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="mbwrk_button_confirm_clear_cart">Confirm</string>
+    <string name="mbwrk_clear_card_dialog_text">Remove every item from your cart?</string>
+    <string name="mbwrk_button_confirm_clear_cart">Clear Cart</string>
     <string name="mbwrk_button_cancel_clear_cart">Cancel</string>
-
-    <!--[FIREBASE][notification_channel]-->
 </resources>
+
